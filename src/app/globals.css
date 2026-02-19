@@ -5,27 +5,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-body {
-  @apply bg-white dark:bg-background text-black dark:text-foreground font-sans antialiased transition-colors duration-300;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  @apply font-display font-extrabold tracking-tight;
-}
-
-a {
-  @apply text-brand hover:underline font-semibold transition-colors;
-}
-
-strong {
-  @apply text-brand font-bold;
-}
-
-section {
-  @apply mb-16;
-}
-
-.prose {
-  @apply prose prose-lg dark:prose-dark max-w-none;
-}
